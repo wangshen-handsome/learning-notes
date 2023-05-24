@@ -23,6 +23,6 @@ features:
   - title: 开源共享
     details: 此项目已被帅小伙上传到 gitee 上面，有兴趣可点击右上方前往gitee查看。
   - title: 联系方式
-    details: QQ:1395835033 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 微信(手机号):18291926010
+    details: QQ:1395835033 <br/> 微信(手机号):18291926010
 ---
 
