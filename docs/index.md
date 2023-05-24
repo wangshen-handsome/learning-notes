@@ -1,8 +1,7 @@
 ---
 layout: home
 
-title: VITEPRESS-TEMPLATE
-titleTemplate: 模版
+title: 学习笔记
 
 hero:
   name: 中公学习笔记
