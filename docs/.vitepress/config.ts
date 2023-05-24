@@ -2,6 +2,11 @@ import { defineConfig } from "vitepress";
 
 import { dayList } from "./days";
 
+const BASE_URL = "/learning-notes/" as const;
+
+const withBase = (path: string): string =>
+  `${BASE_URL}${path}`.replace(/\/+/g, "/");
+
 //一阶段侧边栏数据
 let firstItems: any[] = [];
 
@@ -55,10 +60,12 @@ export default defineConfig({
   title: "学习笔记",
   description: "学习笔记",
   base: "/learning-notes/",
+  head: [["link", { rel: "icon", href: withBase("/logo.svg") }]],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 右侧导航栏显示多级目录
+    logo: "/logo.svg",
     outline: "deep",
     lastUpdatedText: "最后更新",
     footer: {
@@ -71,6 +78,15 @@ export default defineConfig({
       { text: "三阶段", link: "/thirdStage/thirdStageone" },
       { text: "四阶段", link: "/fourthStage/fourthStageone" },
       { text: "五阶段", link: "/fifthStage/fifthStageone" },
+    ],
+
+    socialLinks: [
+      {
+        icon: {
+          svg: '<svg t="1684897554350" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1541" width="200" height="200"><path d="M512 1024C229.222 1024 0 794.778 0 512S229.222 0 512 0s512 229.222 512 512-229.222 512-512 512z m259.149-568.883h-290.74a25.293 25.293 0 0 0-25.292 25.293l-0.026 63.206c0 13.952 11.315 25.293 25.267 25.293h177.024c13.978 0 25.293 11.315 25.293 25.267v12.646a75.853 75.853 0 0 1-75.853 75.853h-240.23a25.293 25.293 0 0 1-25.267-25.293V417.203a75.853 75.853 0 0 1 75.827-75.853h353.946a25.293 25.293 0 0 0 25.267-25.292l0.077-63.207a25.293 25.293 0 0 0-25.268-25.293H417.152a189.62 189.62 0 0 0-189.62 189.645V771.15c0 13.977 11.316 25.293 25.294 25.293h372.94a170.65 170.65 0 0 0 170.65-170.65V480.384a25.293 25.293 0 0 0-25.293-25.267z" fill="#C71D23" p-id="1542"></path></svg>',
+        },
+        link: "https://gitee.com/wang-shen91201/learning-notes",
+      },
     ],
 
     //侧边栏
@@ -106,13 +122,6 @@ export default defineConfig({
         },
       ],
     },
-
-    // 全站搜索
-    // algolia: {
-    //   appId: "ZLJ2S1PQNX",
-    //   apiKey: "62903d3a481e5400265315490f01ddb9",
-    //   indexName: "VitePress",
-    // },
   },
   ignoreDeadLinks: true,
 });
