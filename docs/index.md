@@ -1,0 +1,26 @@
+---
+layout: home
+
+title: VITEPRESS-TEMPLATE
+titleTemplate: 模版
+
+hero:
+  name: 中公学习笔记
+  text: 专注&分享
+  tagline: 一阶段至五阶段的全部笔记
+  actions:
+    - theme: brand
+      text: 开始查看
+      link: /firstStage/firstStageone
+
+features:
+  - title: 方便快捷
+    details: 在此网站中只需稍稍点击，即可找到您所需的内容，无需频繁的打开文件夹寻找内容。
+  - title: 易于添加
+    details: What ? 这块知识老师没讲到 ? 此时可联系帅小伙添加到本网站。
+  - title: 开源共享
+    details: 此项目已被帅小伙上传到 gitee 上面，有兴趣可前往gitee查看 (地址:https://gitee.com/wang-shen91201/learning-notes/)。
+  - title: 联系方式
+    details: QQ:1395835033 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 微信(手机号):18291926010
+---
+
