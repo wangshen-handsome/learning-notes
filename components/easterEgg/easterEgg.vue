@@ -99,6 +99,7 @@ const playEnd = () => {
 }
 .content {
   font-size: 24px;
+  line-height: 30px;
   margin-top: 20px;
 }
 .content::after {
