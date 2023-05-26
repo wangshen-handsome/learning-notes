@@ -4,13 +4,12 @@
     <div class="audio">
       <audio
         ref="audio"
-        autoplay
         src="https://sv-sycdn.kuwo.cn/b51db80dde8b7fe5c7365ec653d5d772/647025ef/resource/n3/22/77/3382916538.mp3"
         @ended="playEnd"
       ></audio>
       <img
         class="img"
-        src="http://img1.kwcdn.kuwo.cn/star/albumcover/240/36/56/1013263130.jpg"
+        src="../../docs/public/img/fifthStage/easterEgg/singer.jpg"
         title="点击暂停/播放"
         @click="change"
       />
