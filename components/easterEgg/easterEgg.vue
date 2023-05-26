@@ -4,7 +4,7 @@
     <div class="audio">
       <audio
         ref="audio"
-        src="https://webfs.ali.kugou.com/202305262124/679f90e2c250f1c3b2c8243c681095cd/part/0/960121/KGTX/CLTX001/clip_9b9aba709a69d7be02d8e969dc1b3fc4.mp3"
+        src="https://audio04.dmhmusic.com/71_53_T10046437473_128_4_1_0_sdk-cpm/cn/0206/M00/74/7A/ChR47FtS1qCAEH9KAERYqZjHvIo127.mp3?xcode=f28cf88d8a55de64c08f62696b4a92e3949b169"
         @ended="playEnd"
       ></audio>
       <img
@@ -113,5 +113,8 @@ const playEnd = () => {
   50% {
     border-color: transparent;
   }
+}
+.VPFooter {
+  display: none !important;
 }
 </style>
