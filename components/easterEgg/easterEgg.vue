@@ -4,7 +4,7 @@
     <div class="audio">
       <audio
         ref="audio"
-        src="https://sv-sycdn.kuwo.cn/b51db80dde8b7fe5c7365ec653d5d772/647025ef/resource/n3/22/77/3382916538.mp3"
+        src="https://webfs.ali.kugou.com/202305262124/679f90e2c250f1c3b2c8243c681095cd/part/0/960121/KGTX/CLTX001/clip_9b9aba709a69d7be02d8e969dc1b3fc4.mp3"
         @ended="playEnd"
       ></audio>
       <img
