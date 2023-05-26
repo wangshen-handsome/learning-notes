@@ -61,16 +61,11 @@ export default defineConfig({
   description: "学习笔记",
   base: "/learning-notes/",
   head: [["link", { rel: "icon", href: withBase("/logo.svg") }]],
-  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 右侧导航栏显示多级目录
     logo: "/logo.svg",
     outline: "deep",
-    lastUpdatedText: "最后更新",
-    footer: {
-      message: "欢迎来到帅小伙的学习笔记网",
-    },
     // 导航栏
     nav: [
       { text: "一阶段", link: "/firstStage/firstStageone" },
