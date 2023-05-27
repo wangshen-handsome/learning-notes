@@ -4,7 +4,7 @@
     <div class="audio">
       <audio
         ref="audio"
-        src="https://audio04.dmhmusic.com/71_53_T10046437473_128_4_1_0_sdk-cpm/cn/0206/M00/74/7A/ChR47FtS1qCAEH9KAERYqZjHvIo127.mp3?xcode=f28cf88d8a55de64c08f62696b4a92e3949b169"
+        src="./music.mp3"
         @ended="playEnd"
       ></audio>
       <img
