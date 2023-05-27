@@ -4,7 +4,7 @@
     <div class="audio">
       <audio
         ref="audio"
-        src="./music.mp3"
+        src="/public/music.mp3"
         @ended="playEnd"
       ></audio>
       <img
