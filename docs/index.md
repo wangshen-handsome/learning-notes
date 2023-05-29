@@ -26,3 +26,19 @@ features:
     details: QQ:1395835033 <br/> 微信(手机号):18291926010
 ---
 
+<footer>
+<p>欢迎来到帅小伙的学习笔记网</p>
+<p>{{ `Copyright © 2022-${new Date().getFullYear()} WangShen` }}</p>
+</footer>
+
+<style scoped>
+  footer{
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #909090;
+  }
+</style>
+
