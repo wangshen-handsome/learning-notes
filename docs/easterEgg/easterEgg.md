@@ -18,11 +18,4 @@ navbar: false
     footer,.aside{
         display:none !important;
     }
-    .content {
-        min-width:100% !important;
-        max-width:100% !important;
-    }
-    .content-container{
-        max-width: 100% !important;
-    }
 </style>
