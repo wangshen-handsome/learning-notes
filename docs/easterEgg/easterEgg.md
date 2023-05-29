@@ -14,7 +14,7 @@ navbar: false
     import easterEgg from '../../components/easterEgg/easterEgg.vue'
 </script>
 
-<style scope>
+<style scoped>
     footer,.aside{
         display:none !important;
     }
