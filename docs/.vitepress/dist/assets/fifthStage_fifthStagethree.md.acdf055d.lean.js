@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,N as l}from"./chunks/framework.e454f055.js";const A=JSON.parse('{"title":"七、表单组件","description":"","frontmatter":{},"headers":[],"relativePath":"fifthStage/fifthStagethree.md"}'),p={name:"fifthStage/fifthStagethree.md"},o=l("",60),e=[o];function t(c,r,D,y,F,i){return n(),a("div",null,e)}const u=s(p,[["render",t]]);export{A as __pageData,u as default};

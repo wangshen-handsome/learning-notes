@@ -97,10 +97,10 @@ const playEnd = () => {
   line-height: 30px;
   padding: 20px 0;
   height: auto;
-  min-width:100% !important;
-  max-width:100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
 }
-.content-container{
+.content-container {
   max-width: 100% !important;
 }
 .content::after {

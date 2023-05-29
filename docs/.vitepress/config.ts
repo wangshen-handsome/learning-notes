@@ -66,10 +66,10 @@ export default defineConfig({
     // 右侧导航栏显示多级目录
     logo: "/logo.svg",
     outline: "deep",
-    footer: {
-      message: "欢迎来到帅小伙的学习笔记网",
-      copyright: `Copyright © 2022-${new Date().getFullYear()} WangShen`,
-    },
+    // footer: {
+    //   message: "欢迎来到帅小伙的学习笔记网",
+    //   copyright: `Copyright © 2022-${new Date().getFullYear()} WangShen`,
+    // },
     // 导航栏
     nav: [
       { text: "一阶段", link: "/firstStage/firstStageone" },
