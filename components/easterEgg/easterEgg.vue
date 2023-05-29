@@ -2,11 +2,7 @@
   <div class="easter-egg">
     <h1>欢迎来到彩蛋页(点击音乐盘可播放音乐哦)</h1>
     <div class="audio">
-      <audio
-        ref="audio"
-        src="/public/music.mp3"
-        @ended="playEnd"
-      ></audio>
+      <audio ref="audio" src="/public/music.mp3" @ended="playEnd"></audio>
       <img
         class="img"
         src="../../docs/public/img/fifthStage/easterEgg/singer.jpg"
@@ -101,6 +97,11 @@ const playEnd = () => {
   line-height: 30px;
   padding: 20px 0;
   height: auto;
+  min-width:100% !important;
+  max-width:100% !important;
+}
+.content-container{
+  max-width: 100% !important;
 }
 .content::after {
   content: "  ";
@@ -114,8 +115,5 @@ const playEnd = () => {
   50% {
     border-color: transparent;
   }
-}
-.VPFooter {
-  display: none !important;
 }
 </style>
