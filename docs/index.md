@@ -28,8 +28,13 @@ features:
 
 <footer>
 <p>欢迎来到帅小伙的学习笔记网</p>
-<p>{{ `Copyright © 2022-${new Date().getFullYear()} WangShen` }}</p>
+<p>{{ str }}</p>
 </footer>
+
+<script setup lang="ts">
+  import {ref} from 'vue'
+  let str = ref<string>('Copyright © 2022-' + new Date().getFullYear() + ' WangShen')
+</script>
 
 <style scoped>
   footer{
