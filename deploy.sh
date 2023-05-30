@@ -1,23 +1,23 @@
 #!/usr/bin/env sh
 
-# 忽略错误
-set -e  #有错误抛出错误
+# 确保脚本抛出遇到的错误
+set -e
 
-# 构建
-npm run docs:build  #然后执行打包命令
+# 生成静态文件
 
-# 进入待发布的目录
-# 进到dist目录
+pnpm run build
+
+# 进入生成的文件夹
+
 cd docs/.vitepress/dist
 
-# 执行这些git命令
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'add'
 
-# 提交到这个分支
-git push -f git@gitee.com:wghzhida/vitepress.git master:gh-pages
+git push -f git@github.com:wangshen-handsome/learning-notes.git master:master
+# git push -f git@github.com:你的git名/你的git项目名.git master:你的git分支
 
-cd ../../../
+cd -
 
-# rm -rf docs/.vitepress/dist  #删除dist文件夹
+
