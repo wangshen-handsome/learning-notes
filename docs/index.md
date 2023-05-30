@@ -33,6 +33,7 @@ features:
 
 <style scoped>
   footer{
+    width: 100%;
     text-align: center;
     position: fixed;
     bottom: 10px;
@@ -40,5 +41,11 @@ features:
     transform: translateX(-50%);
     color: #909090;
   }
+  @media (max-width: 768px) {
+   footer{
+    position: relative;
+    bottom: -80px;
+  }
+}
 </style>
 

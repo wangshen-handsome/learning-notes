@@ -1,1 +1,0 @@
-import{_ as a,c as l,o as i,N as e}from"./chunks/framework.e454f055.js";const f=JSON.parse('{"title":"CSS 浮动","description":"","frontmatter":{},"headers":[],"relativePath":"firstStage/firstStagefive.md"}'),t={name:"firstStage/firstStagefive.md"},s=e("",49),r=[s];function n(o,h,p,c,u,d){return i(),l("div",null,r)}const q=a(t,[["render",n]]);export{f as __pageData,q as default};

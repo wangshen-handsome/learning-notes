@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as l,N as n}from"./chunks/framework.e454f055.js";const A=JSON.parse('{"title":"H5简介","description":"","frontmatter":{},"headers":[],"relativePath":"firstStage/firstStagetwelve.md"}'),e={name:"firstStage/firstStagetwelve.md"},t=n("",141),p=[t];function o(i,c,r,u,h,d){return l(),s("div",null,p)}const y=a(e,[["render",o]]);export{A as __pageData,y as default};
