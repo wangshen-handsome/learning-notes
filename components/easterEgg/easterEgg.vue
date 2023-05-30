@@ -2,10 +2,10 @@
   <div class="easter-egg">
     <h1>欢迎来到彩蛋页(点击音乐盘可播放音乐哦)</h1>
     <div class="audio">
-      <audio ref="audio" src="/public/music.mp3" @ended="playEnd"></audio>
+      <audio ref="audio" src="/.vitepress/dist/music.mp3" @ended="playEnd"></audio>
       <img
         class="img"
-        src="../../docs/public/img/fifthStage/easterEgg/singer.jpg"
+        src="/public/img/fifthStage/easterEgg/singer.jpg"
         title="点击暂停/播放"
         @click="change"
       />
@@ -70,7 +70,7 @@ const playEnd = () => {
   border-radius: 50%;
   float: right;
   margin: 0 10px 10px 10px;
-  background: url("../../docs/public/img/fifthStage/easterEgg/disc.png") no-repeat;
+  background: url("/public/img/fifthStage/easterEgg/disc.png") no-repeat;
   background-size: contain;
   display: flex;
   justify-content: center;
