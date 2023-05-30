@@ -4,12 +4,12 @@
 
 
 
-1. 帅小伙将这个项目分别上传到gitee和github上面了，且使用github pages 和 gitee pages 部署了。
+1. 帅小伙将这个项目分别上传到gitee和github上面了，且使用github pages  部署了。
 
 - gitee地址：https://gitee.com/wangshen-handsome/learning-notes
 - gitee在线体验地址：https://wangshen-handsome.gitee.io/learning-notes
 - github地址：https://github.com/wangshen-handsome/learning-notes
-- github在线体验地址：https://wangshen-handsome.github.io/learning-notes
+- github在线体验地址：github pages 太慢了，所以没有部署到 github pages 上。
 
 
 
