@@ -21,7 +21,7 @@ features:
   - title: 易于添加
     details: What ? 这块知识老师没讲到 ? 此时可联系帅小伙添加到本网站。
   - title: 开源共享
-    details: 此项目已被帅小伙上传到 gitee 上面，有兴趣可点击右上方前往gitee查看。
+    details: 此项目已被帅小伙分别上传至 gitee 和 github 上面，有兴趣可点击右上方前往查看。
   - title: 联系方式
     details: QQ:1395835033 <br/> 微信(手机号):18291926010
 ---
