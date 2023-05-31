@@ -1,3 +1,11 @@
+---
+
+layout: firstStagetwo
+
+title: 一阶段 | 第二天
+
+---
+
 # Day02
 
 能够说出表格的作用

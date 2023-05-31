@@ -1,3 +1,11 @@
+---
+
+layout: fifthStagefour
+
+title: 五阶段 | 第四天
+
+---
+
 ```js
 /*
 *@ course 导航、自定义组件、 常用界面API、授权、获取用户信息、获取用户手机号、

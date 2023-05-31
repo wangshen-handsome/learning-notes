@@ -1,3 +1,11 @@
+---
+
+layout: fifthStagefive
+
+title: 五阶段 | 第五天
+
+---
+
 ```js
 /*
 *@ course 常用界面API、授权、获取用户信息、获取用户手机号、weui、云开发

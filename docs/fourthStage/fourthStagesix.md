@@ -1,3 +1,11 @@
+---
+
+layout: fourthStagesix
+
+title: 四阶段 | 第六天
+
+---
+
 ## day06 is、slot、混入、路由
 
 ### 课程的回顾

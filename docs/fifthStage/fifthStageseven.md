@@ -1,4 +1,10 @@
+---
 
+layout: fifthStageseven
+
+title: 五阶段 | 第七天
+
+---
 
 ```js
 /*

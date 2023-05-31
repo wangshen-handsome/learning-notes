@@ -1,3 +1,11 @@
+---
+
+layout: fourthStagenineteen
+
+title: 四阶段 | 第十九天
+
+---
+
 # react介绍和安装
 
 ## 一.介绍

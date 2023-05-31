@@ -1,3 +1,11 @@
+---
+
+layout: secondStageseven
+
+title: 二阶段 | 第七天
+
+---
+
 ## 一、对象的简介
 
 #### 1、对象的分类

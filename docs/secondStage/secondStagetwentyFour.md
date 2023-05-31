@@ -1,3 +1,11 @@
+---
+
+layout: secondStagetwentyFour
+
+title: 二阶段 | 第二十四天
+
+---
+
 ## 一、bootstrap简介
 
 #### 1、什么是Bootstrap？

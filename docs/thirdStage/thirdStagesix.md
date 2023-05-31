@@ -1,3 +1,11 @@
+---
+
+layout: thirdStagesix
+
+title: 三阶段 | 第六天
+
+---
+
 ## 回顾
 
 commonjs规范

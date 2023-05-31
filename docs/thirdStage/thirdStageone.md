@@ -1,3 +1,11 @@
+---
+
+layout: thirdStageone
+
+title: 三阶段 | 第一天
+
+---
+
 ## 一、课堂开篇
 
 ### 1. 自我介绍

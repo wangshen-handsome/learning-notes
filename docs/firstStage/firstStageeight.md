@@ -1,3 +1,11 @@
+---
+
+layout: firstStageeight
+
+title: 一阶段 | 第八天
+
+---
+
 - 能够说出圣杯布局、双飞翼布局解决的是什么问题？
 - 认识常见的CSS Hack
 - 掌握PS的基础应用

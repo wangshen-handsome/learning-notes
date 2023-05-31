@@ -1,3 +1,11 @@
+---
+
+layout: fourthStagetwenty
+
+title: 四阶段 | 第二十天
+
+---
+
 ## 一、组件通信
 
 ### 1-1.父子组件数据通信

@@ -1,3 +1,11 @@
+---
+
+layout: fourthStageone
+
+title: 四阶段 | 第一天
+
+---
+
 ## vue是什么以及vue的基本指令
 
 ### 一、vue是什么

@@ -1,3 +1,11 @@
+---
+
+layout: secondStageten
+
+title: 二阶段 | 第十天
+
+---
+
 ## 一、获取节点
 
 #### 1、节点

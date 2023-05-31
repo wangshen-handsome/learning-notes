@@ -29,17 +29,7 @@ let lineLoading = ref<string>("running");
 
 let lineColor = ref<string>("#10b981");
 
-onMounted(() => {
-  let timer = setInterval(() => {
-    num++;
-    if (num >= initialData.length - 1) {
-      lineLoading.value = "paused";
-      lineColor.value = "transparent";
-      clearInterval(timer);
-    }
-    str.value += initialData[num];
-  }, 500);
-});
+let timer: any = null;
 
 const audio = ref();
 
@@ -47,9 +37,19 @@ const audio = ref();
 const change = () => {
   if (isRotate.value === "running") {
     playEnd();
+    clearInterval(timer);
   } else {
     isRotate.value = "running";
     audio.value.play();
+    timer = setInterval(() => {
+      num++;
+      if (num >= initialData.length - 1) {
+        lineLoading.value = "paused";
+        lineColor.value = "transparent";
+        clearInterval(timer);
+      }
+      str.value += initialData[num];
+    }, 300);
   }
 };
 
@@ -108,7 +108,7 @@ const playEnd = () => {
   height: 24px;
   border-right: 2px solid;
   border-color: v-bind(lineColor);
-  animation: line 0.5s linear 0s infinite;
+  animation: line 1s linear 0s infinite;
   animation-play-state: v-bind(lineLoading);
 }
 @keyframes line {

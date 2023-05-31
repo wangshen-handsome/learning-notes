@@ -1,3 +1,11 @@
+---
+
+layout: secondStageeleven
+
+title: 二阶段 | 第十一天
+
+---
+
 ## 一、BOM
 
 **window**是js中最大的对象，表示窗口，包含document

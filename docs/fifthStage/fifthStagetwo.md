@@ -1,3 +1,11 @@
+---
+
+layout: fifthStagetwo
+
+title: 五阶段 | 第二天
+
+---
+
 ```js
 /*
 *@ 场景值、逻辑层、WXML语法、WXSS样式、事件系统、WXS脚本语法、视图容器组件

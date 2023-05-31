@@ -1,3 +1,11 @@
+---
+
+layout: fourthStagetwo
+
+title: 四阶段 | 第二天
+
+---
+
 ## day02事件、修饰符、表单、生命周期
 
 ### 回顾

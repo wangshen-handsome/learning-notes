@@ -1,3 +1,11 @@
+---
+
+layout: firstStagefour
+
+title: 一阶段 | 第四天
+
+---
+
 ## CSS背景
 
 CSS 背景属性用于定义 HTML 元素的背景，通过背景属性我们可以定义元素的背景颜

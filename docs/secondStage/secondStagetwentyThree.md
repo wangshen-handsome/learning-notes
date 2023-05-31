@@ -1,3 +1,11 @@
+---
+
+layout: secondStagetwentyThree
+
+title: 二阶段 | 第二十三天
+
+---
+
 ## 一、插件
 
 http://plugins.jquery.com

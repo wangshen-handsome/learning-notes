@@ -1,3 +1,11 @@
+---
+
+layout: firstStageone
+
+title: 一阶段 | 第一天
+
+---
+
 ## 初识HTML
 
 ### 学习目标

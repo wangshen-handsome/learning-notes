@@ -1,3 +1,11 @@
+---
+
+layout: thirdStagenineteen
+
+title: 三阶段 | 第十九天
+
+---
+
 ## 一、es6模块化(重点)
 
 在Node开发中，使用的是commonjs规范：

@@ -1,3 +1,11 @@
+---
+
+layout: secondStageone
+
+title: 二阶段 | 第一天
+
+---
+
 ## 一、课程介绍
 
 **讲师**：彭作洪

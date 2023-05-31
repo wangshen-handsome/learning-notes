@@ -1,3 +1,11 @@
+---
+
+layout: fourthStagefive
+
+title: 四阶段 | 第五天
+
+---
+
 ## day05组件通信、ref、jquery、swiper
 
 ### 课程回顾

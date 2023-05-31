@@ -1,3 +1,11 @@
+---
+
+layout: secondStagesixteen
+
+title: 二阶段 | 第十六天
+
+---
+
 ## 一、扩展原型上的方法
 
 #### 1、原码中的构造函数

@@ -1,4 +1,10 @@
+---
 
+layout: firstStagesix
+
+title: 一阶段 | 第六天
+
+---
 
 # day06
 

@@ -1,3 +1,11 @@
+---
+
+layout: fifthStagethree
+
+title: 五阶段 | 第三天
+
+---
+
 ```js
 /*
 *@ course 事件系统、wxss、wxs、表单组件、导航、自定义组件、常用api
