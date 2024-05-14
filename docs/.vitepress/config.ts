@@ -59,7 +59,7 @@ for (let attr in dayList) {
 export default defineConfig({
   title: "学习笔记",
   description: "学习笔记",
-  base: "/learning-notes/",
+  // base: "/learning-notes/",
   head: [["link", { rel: "icon", href: withBase("/logo.svg") }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
