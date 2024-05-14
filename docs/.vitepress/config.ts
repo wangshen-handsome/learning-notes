@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 import { dayList } from "./days";
 
-const BASE_URL = "/learning-notes/" as const;
+const BASE_URL = "" as const;
 
 const withBase = (path: string): string =>
   `${BASE_URL}${path}`.replace(/\/+/g, "/");

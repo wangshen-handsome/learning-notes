@@ -2,7 +2,7 @@
   <div class="easter-egg">
     <h1>欢迎来到彩蛋页(点击音乐盘可播放音乐哦)</h1>
     <div class="audio">
-      <audio ref="audio" src="/learning-notes/music.mp3" @ended="playEnd"></audio>
+      <audio ref="audio" src="/music.mp3" @ended="playEnd"></audio>
       <img
         class="img"
         src="/public/img/fifthStage/easterEgg/singer.jpg"
