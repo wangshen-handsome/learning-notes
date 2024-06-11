@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 import { dayList } from "./days";
 
-const BASE_URL = "" as const;
+const BASE_URL = "/learning-notes/" as const;
 
 const withBase = (path: string): string =>
   `${BASE_URL}${path}`.replace(/\/+/g, "/");
@@ -59,7 +59,7 @@ for (let attr in dayList) {
 export default defineConfig({
   title: "学习笔记",
   description: "学习笔记",
-  // base: "/learning-notes/",
+  base: "/learning-notes/",
   head: [["link", { rel: "icon", href: withBase("/logo.svg") }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
